@@ -9,4 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>UserSignUpController</display-name>
+    <servlet-name>UserSignUpController</servlet-name>
+    <servlet-class>com.chatbox.controller.UserSignUpController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserSignUpController</servlet-name>
+    <url-pattern>/uesrreg</url-pattern>
+  </servlet-mapping>
 </web-app>
